@@ -129,6 +129,18 @@
   <ItemGroup>
     <ClCompile Include="Shogi.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="仕様書.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BaseContainer.hpp" />
+    <ClInclude Include="board.hpp" />
+    <ClInclude Include="Piece.hpp" />
+    <ClInclude Include="shogi.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cpp.hint" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
